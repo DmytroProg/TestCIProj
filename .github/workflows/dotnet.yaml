@@ -28,5 +28,5 @@ jobs:
         working-directory: ./TestCIProject
 
       - name: Run tests
-        run: dotnet test --no-build --verbosity normal --configuration Release
-        working-directory: ./TestCIProject
+          run: dotnet test --no-build --verbosity normal --configuration Release --logger GitHubActions
+          working-directory: ./YourSubfolderName
